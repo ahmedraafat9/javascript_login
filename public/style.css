@@ -1,0 +1,147 @@
+* {
+    font-family: "Poppins";
+  }
+  
+  body {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dde5f4;
+    height: 100vh;
+  }
+  
+  .login {
+    background: #f1f7fe;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0 0 2em #e6e9f9;
+    gap: 2em;
+  }
+  .login .logo {
+    margin-top: -3em;
+  }
+  .login .email {
+    background: white;
+    box-shadow: 0 0 2em #e6e9f9;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: #4d4d4d;
+    margin-top: -3em;
+  }
+  .login .email input {
+    outline: none;
+    border: none;
+  }
+  .login .email input::-moz-placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+  .screen-1 .email input:-ms-input-placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+  .login .email input::placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+  .login .email ion-icon {
+    color: #4d4d4d;
+    margin-bottom: -0.2em;
+  }
+  .login .password {
+    background: white;
+    box-shadow: 0 0 2em #e6e9f9;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    border-radius: 20px;
+    color: #4d4d4d;
+  }
+  .login .password input {
+    outline: none;
+    border: none;
+  }
+  .login .password input::-moz-placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+  .login .password input:-ms-input-placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+  .login .password input::placeholder {
+    color: black;
+    font-size: 0.9em;
+  }
+  .login .password ion-icon {
+    color: #4d4d4d;
+    margin-bottom: -0.2em;
+  }
+  .login .password .show-hide {
+    margin-right: -5em;
+  }
+  .login .submit {
+    padding: 1em;
+    background: #3e4684;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+  }
+  .login .footer {
+    display: flex;
+    font-size: 0.7em;
+    color: #5e5e5e;
+    gap: 14em;
+    padding-bottom: 10em;
+  }
+  .login .footer span {
+    cursor: pointer;
+  }
+  
+  .submit {
+    cursor: pointer;
+  }
+  
+  form .email,
+  form .submit {
+    margin-bottom: 15px;
+  }
+  form .password {
+    margin-bottom: 40px;
+  }
+  
+  form .footer {
+    margin-left: 10px;
+  }
+  
+  form div span {
+    margin-top: 10px;
+  }
+  
+  form div span a {
+    padding-left: 10px;
+    color: #3e4684;
+    font-weight: bolder;
+    font-size: 14px;
+  }
+  
+  form div a {
+    color: #4d4d4d;
+    text-decoration: none;
+  }
+
+  form div a {
+    margin-top: 12px;
+  }
